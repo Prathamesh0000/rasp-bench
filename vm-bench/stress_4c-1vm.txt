@@ -1,0 +1,45 @@
+stress-ng: info:  [1344] dispatching hogs: 4 mq
+stress-ng: info:  [1344] cache allocate: using built-in defaults as unable to determine cache details
+stress-ng: info:  [1344] successful run completed in 300.61s (5 mins, 0.61 secs)
+stress-ng: info:  [1344] mq:
+stress-ng: info:  [1344]                  306764148 System Call Enter               1.02 M/sec
+stress-ng: info:  [1344]                  306617416 System Call Exit                1.02 M/sec
+stress-ng: info:  [1344]                  243946316 Kmalloc                         0.81 M/sec
+stress-ng: info:  [1344]                     237612 Kmalloc Node                  790.43 /sec 
+stress-ng: info:  [1344]                  605614368 Kfree                           2.01 M/sec
+stress-ng: info:  [1344]                     350608 Kmem Cache Alloc                1.17 K/sec
+stress-ng: info:  [1344]                     293600 Kmem Cache Alloc Node         976.68 /sec 
+stress-ng: info:  [1344]                     411664 Kmem Cache Free                 1.37 K/sec
+stress-ng: info:  [1344]                     196920 MM Page Alloc                 655.07 /sec 
+stress-ng: info:  [1344]                      42084 MM Page Free                  139.99 /sec 
+stress-ng: info:  [1344]                   20322840 RCU Utilization                67.61 K/sec
+stress-ng: info:  [1344]                     172004 Sched Migrate Task            572.18 /sec 
+stress-ng: info:  [1344]                          0 Sched Move NUMA                 0.00 /sec 
+stress-ng: info:  [1344]                    7219452 Sched Wakeup                   24.02 K/sec
+stress-ng: info:  [1344]                          0 Sched Proc Exec                 0.00 /sec 
+stress-ng: info:  [1344]                     146740 Sched Proc Exit               488.14 /sec 
+stress-ng: info:  [1344]                     146740 Sched Proc Fork               488.14 /sec 
+stress-ng: info:  [1344]                      91776 Sched Proc Free               305.30 /sec 
+stress-ng: info:  [1344]                          0 Sched Proc Hang                 0.00 /sec 
+stress-ng: info:  [1344]                          4 Sched Proc Wait                 0.01 /sec 
+stress-ng: info:  [1344]                    9332920 Sched Switch                   31.05 K/sec
+stress-ng: info:  [1344]                          8 Signal Generate                 0.03 /sec 
+stress-ng: info:  [1344]                         16 Signal Deliver                  0.05 /sec 
+stress-ng: info:  [1344]                     274184 IRQ Entry                     912.09 /sec 
+stress-ng: info:  [1344]                     274184 IRQ Exit                      912.09 /sec 
+stress-ng: info:  [1344]                     899516 Soft IRQ Entry                  2.99 K/sec
+stress-ng: info:  [1344]                     899516 Soft IRQ Exit                   2.99 K/sec
+stress-ng: info:  [1344]                          0 Writeback Dirty Inode           0.00 /sec 
+stress-ng: info:  [1344]                          0 Writeback Dirty Page            0.00 /sec 
+stress-ng: info:  [1344]                          0 Migrate MM Pages                0.00 /sec 
+stress-ng: info:  [1344]                     146740 SKB Consume                   488.14 /sec 
+stress-ng: info:  [1344]                        116 SKB Kfree                       0.39 /sec 
+stress-ng: info:  [1344]                          0 IOMMU IO Page Fault             0.00 /sec 
+stress-ng: info:  [1344]                          0 IOMMU Map                       0.00 /sec 
+stress-ng: info:  [1344]                          0 IOMMU Unmap                     0.00 /sec 
+stress-ng: info:  [1344] for a 300.61s run time:
+stress-ng: info:  [1344]    1202.44s available CPU time
+stress-ng: info:  [1344]      99.98s user time   (  8.31%)
+stress-ng: info:  [1344]    1018.89s system time ( 84.73%)
+stress-ng: info:  [1344]    1118.87s total time  ( 93.05%)
+stress-ng: info:  [1344] load average: 8.96 5.95 2.69
