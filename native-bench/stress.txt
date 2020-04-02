@@ -1,0 +1,42 @@
+stress-ng: info:  [9960] dispatching hogs: 4 mq
+stress-ng: info:  [9960] cache allocate: using built-in defaults as unable to determine cache details
+stress-ng: info:  [9960] successful run completed in 30.83s
+stress-ng: info:  [9960] mq:
+stress-ng: info:  [9960]                   26751492 System Call Enter               0.87 M/sec
+stress-ng: info:  [9960]                   26739088 System Call Exit                0.87 M/sec
+stress-ng: info:  [9960]                   14589400 Kmalloc                         0.47 M/sec
+stress-ng: info:  [9960]                          0 Kmalloc Node                    0.00 /sec 
+stress-ng: info:  [9960]                   39723684 Kfree                           1.29 M/sec
+stress-ng: info:  [9960]                      51176 Kmem Cache Alloc                1.66 K/sec
+stress-ng: info:  [9960]                          0 Kmem Cache Alloc Node           0.00 /sec 
+stress-ng: info:  [9960]                      41136 Kmem Cache Free                 1.33 K/sec
+stress-ng: info:  [9960]                       7872 MM Page Alloc                 255.38 /sec 
+stress-ng: info:  [9960]                       2536 MM Page Free                   82.27 /sec 
+stress-ng: info:  [9960]                    7639040 RCU Utilization                 0.25 M/sec
+stress-ng: info:  [9960]                        760 Sched Migrate Task             24.66 /sec 
+stress-ng: info:  [9960]                          0 Sched Move NUMA                 0.00 /sec 
+stress-ng: info:  [9960]                    2900492 Sched Wakeup                   94.09 K/sec
+stress-ng: info:  [9960]                          0 Sched Proc Exec                 0.00 /sec 
+stress-ng: info:  [9960]                      12408 Sched Proc Exit               402.53 /sec 
+stress-ng: info:  [9960]                      12408 Sched Proc Fork               402.53 /sec 
+stress-ng: info:  [9960]                       9492 Sched Proc Free               307.93 /sec 
+stress-ng: info:  [9960]                          0 Sched Proc Hang                 0.00 /sec 
+stress-ng: info:  [9960]                          4 Sched Proc Wait                 0.13 /sec 
+stress-ng: info:  [9960]                    3742996 Sched Switch                    0.12 M/sec
+stress-ng: info:  [9960]                          8 Signal Generate                 0.26 /sec 
+stress-ng: info:  [9960]                         12 Signal Deliver                  0.39 /sec 
+stress-ng: info:  [9960]                      29464 IRQ Entry                     955.84 /sec 
+stress-ng: info:  [9960]                      29464 IRQ Exit                      955.84 /sec 
+stress-ng: info:  [9960]                      75828 Soft IRQ Entry                  2.46 K/sec
+stress-ng: info:  [9960]                      75828 Soft IRQ Exit                   2.46 K/sec
+stress-ng: info:  [9960]                          0 Writeback Dirty Inode           0.00 /sec 
+stress-ng: info:  [9960]                          0 Writeback Dirty Page            0.00 /sec 
+stress-ng: info:  [9960]                          0 Migrate MM Pages                0.00 /sec 
+stress-ng: info:  [9960]                      12404 SKB Consume                   402.40 /sec 
+stress-ng: info:  [9960]                          4 SKB Kfree                       0.13 /sec 
+stress-ng: info:  [9960] for a 30.83s run time:
+stress-ng: info:  [9960]     123.30s available CPU time
+stress-ng: info:  [9960]       7.73s user time   (  6.27%)
+stress-ng: info:  [9960]     110.53s system time ( 89.64%)
+stress-ng: info:  [9960]     118.26s total time  ( 95.91%)
+stress-ng: info:  [9960] load average: 4.95 2.66 1.56
