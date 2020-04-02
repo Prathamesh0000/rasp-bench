@@ -1,0 +1,45 @@
+stress-ng: info:  [2507] dispatching hogs: 4 mq
+stress-ng: info:  [2507] cache allocate: using built-in defaults as unable to determine cache details
+stress-ng: info:  [2507] successful run completed in 30.58s
+stress-ng: info:  [2507] mq:
+stress-ng: info:  [2507]                   33598104 System Call Enter               1.10 M/sec
+stress-ng: info:  [2507]                   33582832 System Call Exit                1.10 M/sec
+stress-ng: info:  [2507]                   18421164 Kmalloc                         0.60 M/sec
+stress-ng: info:  [2507]                      18500 Kmalloc Node                  605.00 /sec 
+stress-ng: info:  [2507]                   66395660 Kfree                           2.17 M/sec
+stress-ng: info:  [2507]                      31760 Kmem Cache Alloc                1.04 K/sec
+stress-ng: info:  [2507]                      31368 Kmem Cache Alloc Node           1.03 K/sec
+stress-ng: info:  [2507]                      47480 Kmem Cache Free                 1.55 K/sec
+stress-ng: info:  [2507]                      11888 MM Page Alloc                 388.77 /sec 
+stress-ng: info:  [2507]                       4912 MM Page Free                  160.63 /sec 
+stress-ng: info:  [2507]                    6264304 RCU Utilization                 0.20 M/sec
+stress-ng: info:  [2507]                       4248 Sched Migrate Task            138.92 /sec 
+stress-ng: info:  [2507]                          0 Sched Move NUMA                 0.00 /sec 
+stress-ng: info:  [2507]                    2885500 Sched Wakeup                   94.36 K/sec
+stress-ng: info:  [2507]                          0 Sched Proc Exec                 0.00 /sec 
+stress-ng: info:  [2507]                      15280 Sched Proc Exit               499.69 /sec 
+stress-ng: info:  [2507]                      15280 Sched Proc Fork               499.69 /sec 
+stress-ng: info:  [2507]                      11320 Sched Proc Free               370.19 /sec 
+stress-ng: info:  [2507]                          0 Sched Proc Hang                 0.00 /sec 
+stress-ng: info:  [2507]                          4 Sched Proc Wait                 0.13 /sec 
+stress-ng: info:  [2507]                    3045480 Sched Switch                   99.59 K/sec
+stress-ng: info:  [2507]                          4 Signal Generate                 0.13 /sec 
+stress-ng: info:  [2507]                         16 Signal Deliver                  0.52 /sec 
+stress-ng: info:  [2507]                      28256 IRQ Entry                     924.04 /sec 
+stress-ng: info:  [2507]                      28256 IRQ Exit                      924.04 /sec 
+stress-ng: info:  [2507]                      86380 Soft IRQ Entry                  2.82 K/sec
+stress-ng: info:  [2507]                      86380 Soft IRQ Exit                   2.82 K/sec
+stress-ng: info:  [2507]                          0 Writeback Dirty Inode           0.00 /sec 
+stress-ng: info:  [2507]                          0 Writeback Dirty Page            0.00 /sec 
+stress-ng: info:  [2507]                          0 Migrate MM Pages                0.00 /sec 
+stress-ng: info:  [2507]                      15272 SKB Consume                   499.43 /sec 
+stress-ng: info:  [2507]                         20 SKB Kfree                       0.65 /sec 
+stress-ng: info:  [2507]                          0 IOMMU IO Page Fault             0.00 /sec 
+stress-ng: info:  [2507]                          0 IOMMU Map                       0.00 /sec 
+stress-ng: info:  [2507]                          0 IOMMU Unmap                     0.00 /sec 
+stress-ng: info:  [2507] for a 30.58s run time:
+stress-ng: info:  [2507]     122.31s available CPU time
+stress-ng: info:  [2507]      11.05s user time   (  9.03%)
+stress-ng: info:  [2507]     108.10s system time ( 88.38%)
+stress-ng: info:  [2507]     119.15s total time  ( 97.41%)
+stress-ng: info:  [2507] load average: 4.92 1.37 0.48
